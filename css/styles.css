@@ -52,11 +52,15 @@ table thead {
     background-color: #0c8d81;
 }
 
+table {
+    border-spacing: 1px;
+}
+
 table th,
 table td,
 table tr {
-    padding: 8px;
-    border-bottom: 1px solid rgb(72, 80, 85);
+    padding: 5px;
+    border: 1px solid #b5b5b5;
 }
 
 table th {
