@@ -17,7 +17,7 @@ function loadContractData(contractData) {
     tbody.innerHTML = " ";
 
     if (contractData.length == 0) {
-        alert("No exsisten coincidencias. Intente de nuevo.");
+        alert("No existen coincidencias. Intente de nuevo.");
     } else {
         let contractCodes = [];
         contractData.forEach(function (currentPart) {
